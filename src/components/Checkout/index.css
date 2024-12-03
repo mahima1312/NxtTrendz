@@ -1,0 +1,61 @@
+.payment-methods-list {
+  list-style-type: none;
+  padding: 0;
+}
+.payment-method-button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  text-align: left;
+  color: #171f46;
+}
+.selected-payment-method {
+  background-color: #d4edda;
+  border: 1px solid #28a745;
+  color: #155724;
+}
+.place-order-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.place-order-button:hover {
+  background-color: #0056b3;
+}
+.order-success-container {
+  text-align: center;
+}
+.success-heading {
+  color: #28a745;
+}
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.view-orders-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.view-orders-button:hover {
+  background-color: #45a049;
+}
+.total-amount {
+  color: #171f46;
+  font-size: 20px;
+  font-weight: bold;
+}
